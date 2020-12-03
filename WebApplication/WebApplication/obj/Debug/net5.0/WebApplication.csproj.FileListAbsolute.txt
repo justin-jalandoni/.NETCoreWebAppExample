@@ -52,7 +52,6 @@ C:\Users\QHTF\Desktop\CSharpProjects\WebAppSolution\WebApplication\WebApplicatio
 C:\Users\QHTF\Desktop\CSharpProjects\WebAppSolution\WebApplication\WebApplication\obj\Debug\net5.0\ref\WebApplication.dll
 C:\Users\QHTF\Desktop\CSharpProjects\WebAppSolution\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.pdb
 C:\Users\QHTF\Desktop\CSharpProjects\WebAppSolution\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.genruntimeconfig.cache
-C:\Users\QHTF\Desktop\CSharpProjects\WebAppSolution\WebApplication\WebApplication\obj\Debug\net5.0\Razor\Views\Customer\Index.cshtml.g.cs
 C:\Users\QHTF\Desktop\CSharpProjects\WebAppSolution\WebApplication\WebApplication\bin\Debug\net5.0\System.Windows.Forms.dll
 C:\Users\QHTF\Desktop\CSharpProjects\WebAppSolution\WebApplication\WebApplication\obj\Debug\net5.0\Razor\Views\Customer\Admin.cshtml.g.cs
 C:\Users\QHTF\Desktop\CSharpProjects\WebAppSolution\WebApplication\WebApplication\obj\Debug\net5.0\Razor\Views\Customer\Create.cshtml.g.cs

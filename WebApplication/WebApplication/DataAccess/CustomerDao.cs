@@ -59,5 +59,11 @@ namespace WebApplication.DataAccess
             }
             return customers;
         }
+
+
+        public void insertCustomer(Customer customer)
+        {
+            
+        }
     }
 }

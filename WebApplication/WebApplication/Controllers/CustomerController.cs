@@ -10,11 +10,6 @@ namespace WebApplication.Controllers
     public class CustomerController : Controller
     {
         private CustomerService customerService;
-
-        public IActionResult Index()
-        {
-            return View();
-        }
         
         public CustomerController()
         {
@@ -24,8 +19,25 @@ namespace WebApplication.Controllers
         public IActionResult Admin()
         {
             List<Customer> ls = customerService.GetAllCustomers();
-            
             return View(ls);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CreateCustomer(Customer customer)
+        {
+            Console.WriteLine(customer.Id);
+            Console.WriteLine(customer.FirstName);
+            Console.WriteLine(customer.LastName);
+            Console.WriteLine(customer.State);
+            Console.WriteLine(customer.Country);
+            Console.WriteLine(customer.ZipCode);
+            Console.WriteLine(customer.PhoneNumber);
+            return View("create");
         }
 
     }

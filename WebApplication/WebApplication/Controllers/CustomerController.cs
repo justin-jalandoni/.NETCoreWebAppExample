@@ -10,7 +10,7 @@ namespace WebApplication.Controllers
     public class CustomerController : Controller
     {
         private CustomerService customerService;
-        
+
         public CustomerController()
         {
             customerService = new CustomerService();
@@ -30,15 +30,8 @@ namespace WebApplication.Controllers
         [HttpPost]
         public IActionResult CreateCustomer(Customer customer)
         {
-            Console.WriteLine(customer.Id);
-            Console.WriteLine(customer.FirstName);
-            Console.WriteLine(customer.LastName);
-            Console.WriteLine(customer.State);
-            Console.WriteLine(customer.Country);
-            Console.WriteLine(customer.ZipCode);
-            Console.WriteLine(customer.PhoneNumber);
+            customerService.createCustomer(customer);
             return View("create");
         }
-
     }
 }

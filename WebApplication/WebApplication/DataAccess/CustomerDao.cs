@@ -34,8 +34,8 @@ namespace WebApplication.DataAccess
             {
                 MySqlConnection conn = GetDatabaseConnection();
                 conn.Open();
-                MySqlCommand command = new MySqlCommand(QUERY_ALL_CUSTOMERS, conn);
-                MySqlDataReader reader = command.ExecuteReader();
+                MySqlCommand readCommand = new MySqlCommand(QUERY_ALL_CUSTOMERS, conn);
+                MySqlDataReader reader = readCommand.ExecuteReader();
                 while (reader.Read())
                 {
                     Customer customer = new Customer();
@@ -49,7 +49,7 @@ namespace WebApplication.DataAccess
                     customer.PhoneNumber = reader.GetString("phone_number");
                     customers.Add(customer);
                 }
-                command.Dispose();
+                readCommand.Dispose();
                 reader.Close();
                 conn.Close();
             }
@@ -63,7 +63,28 @@ namespace WebApplication.DataAccess
 
         public void insertCustomer(Customer customer)
         {
-            
+            String QUERY_INSERT_CUSTOMER = "INSERT INTO CUSTOMER (id, first_name, last_name, address, state," +
+                                           "country, zip_code, phone_number) VALUES (@1, @2, @3, @4, @5, @6, @7, @8)";
+            try
+            {
+                MySqlConnection conn = GetDatabaseConnection();
+                conn.Open();
+                MySqlCommand insertCommand = new MySqlCommand(QUERY_INSERT_CUSTOMER, conn);
+                insertCommand.Parameters.AddWithValue("@1", customer.Id);
+                insertCommand.Parameters.AddWithValue("@2", customer.FirstName);
+                insertCommand.Parameters.AddWithValue("@3", customer.LastName);
+                insertCommand.Parameters.AddWithValue("@4", customer.Address);
+                insertCommand.Parameters.AddWithValue("@5", customer.State);
+                insertCommand.Parameters.AddWithValue("@6", customer.Address);
+                insertCommand.Parameters.AddWithValue("@7", customer.ZipCode);
+                insertCommand.Parameters.AddWithValue("@8", customer.PhoneNumber);
+                insertCommand.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

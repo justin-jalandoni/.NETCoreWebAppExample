@@ -18,5 +18,10 @@ namespace WebApplication.Service
         {
             return customerDao.GetAllCustomers();
         }
+
+        public void createCustomer(Customer customer)
+        {
+            customerDao.insertCustomer(customer);
+        }
     }
 }

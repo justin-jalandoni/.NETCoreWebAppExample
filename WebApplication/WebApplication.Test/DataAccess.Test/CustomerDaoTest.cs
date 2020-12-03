@@ -9,7 +9,7 @@ namespace WebApplication.Test.DataAccess.Test
 {
     public class Tests
     {
-        // [Test]
+        [Test]
         public void TestRetrieveAllCustomers()
         {
             CustomerDao customerDao = new CustomerDao();
@@ -20,7 +20,17 @@ namespace WebApplication.Test.DataAccess.Test
         [Test]
         public void TestInsertCustomer()
         {
-            Customer c = new Customer() {FirstName = "From Unit Test"};
+            Customer c = new Customer()
+            {
+                Id = 22,
+                FirstName = "From Unit Test",
+                LastName = "Last Name",
+                Address = "Addess",
+                State = "state",
+                Country = "country",
+                ZipCode = "Zip",
+                PhoneNumber = "1234"
+            };
             new CustomerDao().insertCustomer(c);
         }
     }

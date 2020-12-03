@@ -21,7 +21,7 @@ namespace WebApplication.Service
 
         public bool createCustomer(Customer customer)
         {
-            return customerDao.insertCustomer(customer);
+            return customerDao.InsertCustomer(customer);
         }
     }
 }

@@ -31,7 +31,7 @@ namespace WebApplication.Test.DataAccess.Test
                 ZipCode = "Zip",
                 PhoneNumber = "1234"
             };
-            new CustomerDao().insertCustomer(c);
+            new CustomerDao().InsertCustomer(c);
         }
     }
 }

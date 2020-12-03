@@ -61,7 +61,7 @@ namespace WebApplication.DataAccess
         }
 
 
-        public bool insertCustomer(Customer customer)
+        public bool InsertCustomer(Customer customer)
         {
             String QUERY_INSERT_CUSTOMER = "INSERT INTO CUSTOMER (id, first_name, last_name, address, state," +
                                            "country, zip_code, phone_number) VALUES (@1, @2, @3, @4, @5, @6, @7, @8)";

@@ -23,14 +23,10 @@ namespace WebApplication.Controllers
 
         public IActionResult Admin()
         {
-            List<Customer> ls = new List<Customer>()
-            {
-                new Customer() {FirstName = "First", LastName = "Last"},
-                new Customer() {FirstName = "First", LastName = "Last"}
-            };
+            List<Customer> ls = customerService.GetAllCustomers();
             
             return View(ls);
         }
-        
+
     }
 }

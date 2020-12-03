@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WebApplication.Models.Customer>
+
+@{
+    ViewData["Title"] = "Admin";
+}
+
+<div class="text-center">
+    <h3>Customers</h3>
+    <br/>    
+    <br/>    
+    @if (Model.Any())
+    {
+        <table class="table">
+            <thead>
+            <th>Customer ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Zip Code</th>
+            <th>Phone Number</th>
+            </thead>
+            <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@customer.Id</td>
+                    <td>@customer.FirstName</td>
+                    <td>@customer.LastName</td>
+                    <td>@customer.Address</td>
+                    <td>@customer.State</td>
+                    <td>@customer.Country</td>
+                    <td>@customer.ZipCode</td>
+                    <td>@customer.PhoneNumber</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>There are no Customers</p>
+    }
+    
+
+</div>

@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication.Models;
 using WebApplication.Service;
 
 namespace WebApplication.Controllers
@@ -19,9 +21,15 @@ namespace WebApplication.Controllers
             customerService = new CustomerService();
         }
 
-        public IActionResult GetAllCustomers()
+        public IActionResult Admin()
         {
-            return null;
+            List<Customer> ls = new List<Customer>()
+            {
+                new Customer() {FirstName = "First", LastName = "Last"},
+                new Customer() {FirstName = "First", LastName = "Last"}
+            };
+            
+            return View(ls);
         }
         
     }

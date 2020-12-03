@@ -1,22 +1,28 @@
-﻿using WebApplication.Service;
+﻿using System;
+using System.Windows.Forms;
+using Microsoft.AspNetCore.Mvc;
+using WebApplication.Service;
 
 namespace WebApplication.Controllers
 {
-    public class CustomerController
+    public class CustomerController : Controller
     {
         private CustomerService customerService;
 
-
+        public IActionResult Index()
+        {
+            return View();
+        }
+        
         public CustomerController()
         {
             customerService = new CustomerService();
         }
-        
-        public string Index()
+
+        public IActionResult GetAllCustomers()
         {
-            return "fsafsafsa";
+            return null;
         }
-        
         
     }
 }

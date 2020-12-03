@@ -19,9 +19,9 @@ namespace WebApplication.Service
             return customerDao.GetAllCustomers();
         }
 
-        public void createCustomer(Customer customer)
+        public bool createCustomer(Customer customer)
         {
-            customerDao.insertCustomer(customer);
+            return customerDao.insertCustomer(customer);
         }
     }
 }

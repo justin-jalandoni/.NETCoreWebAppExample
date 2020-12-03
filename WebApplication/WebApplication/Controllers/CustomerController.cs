@@ -30,7 +30,15 @@ namespace WebApplication.Controllers
         [HttpPost]
         public IActionResult CreateCustomer(Customer customer)
         {
-            customerService.createCustomer(customer);
+            bool created = customerService.createCustomer(customer);
+            if (created)
+            {
+                ViewBag.MESSAGE = "Successfully Created Customer";
+            }
+            else
+            {
+                ViewBag.MESSAGE = "Error: Cannot Create Customer";
+            }
             return View("create");
         }
     }

@@ -61,7 +61,7 @@ namespace WebApplication.DataAccess
         }
 
 
-        public void insertCustomer(Customer customer)
+        public bool insertCustomer(Customer customer)
         {
             String QUERY_INSERT_CUSTOMER = "INSERT INTO CUSTOMER (id, first_name, last_name, address, state," +
                                            "country, zip_code, phone_number) VALUES (@1, @2, @3, @4, @5, @6, @7, @8)";
@@ -84,7 +84,9 @@ namespace WebApplication.DataAccess
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+                return false;
             }
+            return true;
         }
     }
 }

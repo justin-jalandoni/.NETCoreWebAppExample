@@ -79,6 +79,7 @@ namespace WebApplication.DataAccess
                 insertCommand.Parameters.AddWithValue("@7", customer.ZipCode);
                 insertCommand.Parameters.AddWithValue("@8", customer.PhoneNumber);
                 insertCommand.ExecuteNonQuery();
+                insertCommand.Dispose();
                 conn.Close();
             }
             catch (Exception e)

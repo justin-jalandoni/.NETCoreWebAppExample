@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj": {}
+    "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj": {
+    "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj",
+        "projectPath": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj",
         "packagesPath": "C:\\Users\\QHTF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\obj\\",
+        "outputPath": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\QHTF\\AppData\\Roaming\\NuGet\\NuGet.Config"

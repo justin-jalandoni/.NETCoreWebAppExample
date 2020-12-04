@@ -4,12 +4,50 @@
     <projectFile>WebApplication/WebApplication.csproj</projectFile>
     <projectFile>TestProject1/TestProject1.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d65d1e59-738c-469a-b4a1-77046bd690ba" name="Default Changelist" comment="" />
+    <list default="true" id="d65d1e59-738c-469a-b4a1-77046bd690ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication.Test/obj/Debug/net5.0/WebApplication.Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.Test/obj/Debug/net5.0/WebApplication.Test.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/WebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/WebApplication.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/WebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/WebApplication.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/ref/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/net5.0/ref/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/Razor/Views/Customer/Admin.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/Razor/Views/Customer/Admin.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/WebApplication.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/WebApplication.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/WebApplication.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/WebApplication.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/ref/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/net5.0/ref/WebApplication.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B28F550-0D54-4E01-9E30-DCA09FAB36D7/f2/4a406e43/View.cs" root0="SKIP_HIGHLIGHTING" />
@@ -27,18 +65,19 @@
         <option value="$PROJECT_DIR$/WebApplication/Models/Customer.cs" />
         <option value="$PROJECT_DIR$/WebApplication.Test/DataAccess.Test/CustomerDAOTest.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Customer/Admin.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication.Test/DataAccess.Test/CustomerDaoTest.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/DataAccess/CustomerDao.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Service/CustomerService.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Controllers/CustomerController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Customer/Create.cshtml" />
         <option value="$PROJECT_DIR$/WebApplication/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Customer/Create.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/DataAccess/CustomerDao.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Customer/Admin.cshtml" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1l8SFvXZysOpQM70dF4aanVqJLM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -112,14 +151,30 @@
       <option name="presentableId" value="Default" />
       <updated>1606977135221</updated>
       <workItem from="1606977145456" duration="15784000" />
+      <workItem from="1607002985451" duration="260000" />
+      <workItem from="1607003433493" duration="116000" />
+      <workItem from="1607004941438" duration="31000" />
+      <workItem from="1607013525908" duration="318000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -132,22 +187,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606988028494" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607002695588">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607003549978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607002695588" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607002695588">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607003549978" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607003549978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607002695588" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607002695588">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607003549978" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607003549978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607002695588" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607002695588">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607003549978" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607003549978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607002695588" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607003549978" />
     <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1607002695572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,9 +287,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606994398089" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606995577858">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607013786922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606995577858" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607013786922" />
   </component>
 </project>

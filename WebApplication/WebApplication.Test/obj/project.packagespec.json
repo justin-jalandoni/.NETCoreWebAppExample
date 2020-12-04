@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication.Test\\WebApplication.Test.csproj",
+    "projectUniqueName": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication.Test\\WebApplication.Test.csproj",
     "projectName": "WebApplication.Test",
-    "projectPath": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication.Test\\WebApplication.Test.csproj",
-    "outputPath": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication.Test\\obj\\",
+    "projectPath": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication.Test\\WebApplication.Test.csproj",
+    "outputPath": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication.Test\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net50"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp5.0": {
         "projectReferences": {
-          "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj": {
-            "projectPath": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj"
+          "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj": {
+            "projectPath": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj"
           }
         }
       }

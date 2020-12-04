@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj",
+    "projectUniqueName": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj",
     "projectName": "WebApplication",
-    "projectPath": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj",
-    "outputPath": "C:\\Users\\QHTF\\Desktop\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\obj\\",
+    "projectPath": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\WebApplication.csproj",
+    "outputPath": "C:\\Users\\QHTF\\Desktop\\dev-work\\CSharpProjects\\WebAppSolution\\WebApplication\\WebApplication\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net50"
